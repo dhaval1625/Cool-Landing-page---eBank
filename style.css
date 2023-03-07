@@ -1,4 +1,5 @@
 /* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
 
 :root {
   --color-primary: #5ec576;
@@ -125,6 +126,13 @@ img {
   z-index: 100;
 }
 
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nova Oval', cursive;
+}
+
 /* nav and stickly class at the same time */
 .nav.sticky {
   position: fixed;
@@ -213,6 +221,8 @@ h4 {
 
 .highlight {
   position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px green;
 }
 
 .highlight::after {
